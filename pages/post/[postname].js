@@ -3,23 +3,55 @@ import matter from 'gray-matter'
 import ReactMarkdown from 'react-markdown'
 
 import Layout from '../../components/Layout'
+import getSlugs from '../../utils/getSlugs'
 
 export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
   if (!frontmatter) return <></>
 
   return (
+    <>
       <Layout pageTitle={`${siteTitle} | ${frontmatter.title}`}>
-        <Link href="/">
-          <a>Back to post list</a>
-        </Link>
+        <div className="back">
+          ←{' '}
+          <Link href="/">
+            <a>Back to post list</a>
+          </Link>
+        </div>
         <article>
           <h1>{frontmatter.title}</h1>
-          <p>By {frontmatter.author}</p>
+          {frontmatter.hero_image && (
+            <img
+              src={frontmatter.hero_image}
+              className="hero"
+              alt={frontmatter.title}
+            />
+          )}
           <div>
             <ReactMarkdown source={markdownBody} />
           </div>
         </article>
       </Layout>
+      <style jsx>{`
+        article {
+          width: 100%;
+          max-width: 1200px;
+        }
+        h1 {
+          font-size: 3rem;
+        }
+        h3 {
+          font-size: 2rem;
+        }
+        .hero {
+          width: 100%;
+        }
+        .back {
+          width: 100%;
+          max-width: 1200px;
+          color: #00a395;
+        }
+      `}</style>
+    </>
   )
 }
 
@@ -41,19 +73,13 @@ export async function getStaticProps({ ...ctx }) {
 
 export async function getStaticPaths() {
   const blogSlugs = ((context) => {
-    const keys = context.keys()
-    const data = keys.map((key, index) => {
-      let slug = key.replace(/^.*[\\\/]/, '').slice(0, -3)
-
-      return slug
-    })
-    return data
+    return getSlugs(context)
   })(require.context('../../posts', true, /\.md$/))
 
   const paths = blogSlugs.map((slug) => `/post/${slug}`)
 
   return {
-    paths,
-    fallback: false,
+    paths, // An array of path names, and any params
+    fallback: false, // so that 404s properly appear if something's not matching
   }
 }
