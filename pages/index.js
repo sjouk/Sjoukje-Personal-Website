@@ -7,8 +7,10 @@ const Index = ({ posts, title, description, ...props }) => {
   return (
     <>
       <Layout pageTitle={title} description={description}>
-        <h1 className="title">Sjoukje IJlstra's Space</h1>
+        <h1 className="title">Sjoukje Ijlstra</h1>
+        <h3 className="subtitle">Software Engineer in Glasgow (remotely in Amsterdam!)</h3>
         <main>
+          <h6>Blog Posts</h6>
           <PostList posts={posts} />
         </main>
       </Layout>
@@ -16,6 +18,10 @@ const Index = ({ posts, title, description, ...props }) => {
         .title {
           margin: 1rem auto;
           font-size: 3rem;
+        }
+        .subtitle {
+          font-size: 2em;
+          color: grey;
         }
       `}</style>
     </>
