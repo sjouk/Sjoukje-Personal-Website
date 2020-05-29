@@ -10,7 +10,7 @@ export default function Layout({ children, pageTitle, description, ...props }) {
         <meta charSet="utf-8" />
         <meta name="Description" content={description}></meta>
         <title>{pageTitle}</title>
-      </Head>
+        <script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="sjoukje" data-description="Help me support more women in tech ✨" data-message="Hey you! Over here!" data-color="#79D6B5" data-position="right" data-x_margin="18" data-y_margin="18"></script>      </Head>
       <style jsx global>{`
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800;900&display=swap');
         html,
