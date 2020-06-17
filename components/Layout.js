@@ -10,17 +10,16 @@ export default function Layout({ children, pageTitle, description, ...props }) {
         <meta charSet="utf-8" />
         <meta name="Description" content={description}></meta>
         <title>{pageTitle}</title>
-        <script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="sjoukje" data-description="Help me support more women in tech ✨" data-message="Hey you! Over here!" data-color="#79D6B5" data-position="right" data-x_margin="18" data-y_margin="18"></script>      </Head>
+        <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet' />
+        <script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="sjoukje" data-description="Help me support more women in tech ✨" data-message="Hey you! Over here!" data-color="#79D6B5" data-position="right" data-x_margin="18" data-y_margin="18"></script>
+      </Head>
       <style jsx global>{`
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800;900&display=swap');
         html,
         body {
           margin: 0;
           padding: 0;
-          font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-            Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
-            sans-serif;
-          color: #445566;
+          font-family: 'Roboto Mono';
+          color: #1d1e1f;
         }
         h1,
         h2,
@@ -31,23 +30,25 @@ export default function Layout({ children, pageTitle, description, ...props }) {
           font-weight: bold;
         }
         a {
-          color: #00a395;
+          color: #FFBE0B;
         }
         .content {
-          padding: 2rem 20px;
+          padding: 2rem 40px;
           flex: 1;
           display: flex;
           flex-direction: column;
           justify-content: center;
-          align-items: center;
+          align-items: left;
         }
         footer {
           width: 100%;
           height: 100px;
-          border-top: 1px solid #eaeaea;
+          border-top: 2px solid #FB5607;
           display: flex;
           justify-content: center;
           align-items: center;
+          position: absolute;
+          bottom: 0;
         }
         footer img {
           padding: 0 5px;

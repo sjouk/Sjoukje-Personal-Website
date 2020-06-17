@@ -11,13 +11,16 @@ export default function Header() {
           <Link href="/about">
             <a>About</a>
           </Link>
+          <Link href="/contact">
+            <a>Let's Talk</a>
+          </Link>
         </nav>
       </header>
       <style jsx>{`
         header {
           width: 100%;
           height: 100px;
-          border-bottom: 1px solid #eaeaea;
+          border-bottom: 2px solid #FB5607;;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -29,12 +32,13 @@ export default function Header() {
           font-size: 1.3rem;
         }
         nav a {
+          color: #1d1e1f;
           margin-right: 20px;
-          color: #00a395;
           text-decoration: none;
         }
         nav a:hover {
           text-decoration: underline;
+          color: #8338EC;
         }
       `}</style>
     </>

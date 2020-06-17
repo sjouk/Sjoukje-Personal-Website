@@ -7,8 +7,24 @@ const Index = ({ posts, title, description, ...props }) => {
   return (
     <>
       <Layout pageTitle={title} description={description}>
-        <h1 className="title">Sjoukje Ijlstra</h1>
-        <h3 className="subtitle">Software Engineer in Glasgow (remotely in Amsterdam!)</h3>
+        {/* <img id="backgroundimage" src="/circle-hero.png" border="0" alt="" /> */}
+        <div className="container">
+          <div className="header-section">
+            <div className="header-frame">
+              <h1 className="title">Sjoukje Ijlstra</h1>
+              <h2 className="subtitle">Software Engineer (remote in Amsterdam!)</h2>
+            </div>
+            <div className="img-frame">
+              <img src="/headshot.png" />
+            </div>
+          </div> 
+          <div className="links">
+            <a href="http://twitter.com/sjoukjeijlstra">twitter</a>
+            <a href="http://linkedin.com/in/sjoukje">linkedin</a>
+            <a href="http://codepen.io/sjoukje-ijlstra">codepen</a>
+            <a href="mailto:sjoukjeijlstra@gmail.com">email</a>
+          </div>
+        </div>
         <main>
           <h6>Blog Posts</h6>
           <PostList posts={posts} />
@@ -17,11 +33,55 @@ const Index = ({ posts, title, description, ...props }) => {
       <style jsx>{`
         .title {
           margin: 1rem auto;
-          font-size: 3rem;
+          font-size: 2rem;
         }
         .subtitle {
-          font-size: 2em;
-          color: grey;
+          color: #FF006E;
+        }
+        .header-section {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+        }
+        .header-frame {
+          max-width: 350px;
+          display: block;
+        }
+        .img-frame {
+          position: relative;
+          width: 300px;
+          height: 300px;
+          margin: 0 0 10px 0;
+          border-radius: 50%;
+          overflow: hidden;
+        }
+        .img-frame img {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          height: 100%;
+        }
+        #backgroundimage {
+          height: 40%;
+          left: 0;
+          margin: 0;
+          min-height: 100px;
+          min-width: 100px;
+          padding: 0;
+          position: fixed;
+          top: 10%;
+          width: 1;
+          z-index: -1;
+          border-radius: 30% 60% 50% 40%;
+        }
+        .links {
+          margin: 25px 0;
+          display: block;
+        }
+        .links a:not(:last-child) {
+          padding: 0 16px 0 0;
         }
       `}</style>
     </>
