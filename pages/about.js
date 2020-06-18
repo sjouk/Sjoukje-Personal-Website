@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 
 const About = ({ title, description, ...props }) => {
   const [toggleDescription, setToggleDescription] = useState(false);
+  const toggleButtonText = toggleDescription === false ? "Show me a short description" : "Show me a long description";
 
   function toggle() {
     setToggleDescription(!toggleDescription);
@@ -13,17 +14,17 @@ const About = ({ title, description, ...props }) => {
       <Layout pageTitle={`${title} | About`} description={description}>
         <h1 className="title">About Sjoukje</h1>
 
-        <button onClick={toggle}>Short Description</button>
+        <button onClick={toggle}>{toggleButtonText}</button>
         
         {toggleDescription && 
-          <div className="about-short">
+          <div className="about about-short">
             <p>Hey there! My name is Sjoukje (sound!) and I'm a software engineer at <a href="https://www.jpmorgan.com/" target="_blank">JP Morgan</a>. 
             I help women launch their tech careers, nerd out on tech Twitter and catch sea bass on Animal Crossing.</p>
           </div> 
         }
 
         {!toggleDescription && 
-          <div className="about-long">
+          <div className="about about-long">
               <p>
                   Hello there! My name is Sjoukje (sound!) and I'm a software engineer at <a href="https://www.jpmorgan.com/" target="_blank">JP Morgan</a>. 
                   Before now, I was a software engineer intern at <a href="https://www.floatapp.com" target="_blank">Float</a> in Edinburgh and got a maths degree at the University of St Andrews.
@@ -49,6 +50,12 @@ const About = ({ title, description, ...props }) => {
         </p>
       </Layout>
       <style jsx>{`
+        .about {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+        }
         .about-short {
             width: 40%;
         }

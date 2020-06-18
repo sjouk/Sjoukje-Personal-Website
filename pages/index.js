@@ -12,7 +12,7 @@ const Index = ({ posts, title, description, ...props }) => {
           <div className="header-section">
             <div className="header-frame">
               <h1 className="title">Sjoukje Ijlstra</h1>
-              <h2 className="subtitle">Software Engineer (remote in Amsterdam!)</h2>
+              <h2 className="subtitle">Software Engineer ✨ (remote in Amsterdam!)</h2>
             </div>
             <div className="img-frame">
               <img src="/headshot.png" />
@@ -20,17 +20,22 @@ const Index = ({ posts, title, description, ...props }) => {
           </div> 
           <div className="links">
             <a href="http://twitter.com/sjoukjeijlstra">twitter</a>
-            <a href="http://linkedin.com/in/sjoukje">linkedin</a>
-            <a href="http://codepen.io/sjoukje-ijlstra">codepen</a>
+            <a href="https://www.linkedin.com/in/sjoukje-ijlstra-27607379">linkedin</a>
+            <a href="http://codepen.io/sjoukjeijlstra">codepen</a>
             <a href="mailto:sjoukjeijlstra@gmail.com">email</a>
           </div>
-        </div>
-        <main>
-          <h6>Blog Posts</h6>
-          <PostList posts={posts} />
+          <main>
+            <h3>Blog Posts</h3>
+            <PostList posts={posts} />
         </main>
+        </div>
       </Layout>
       <style jsx>{`
+        .container {
+          margin: 50px auto;
+          padding: 5px;
+          max-width: 650px;
+        }
         .title {
           margin: 1rem auto;
           font-size: 2rem;

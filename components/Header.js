@@ -32,13 +32,7 @@ export default function Header() {
           font-size: 1.3rem;
         }
         nav a {
-          color: #1d1e1f;
           margin-right: 20px;
-          text-decoration: none;
-        }
-        nav a:hover {
-          text-decoration: underline;
-          color: #8338EC;
         }
       `}</style>
     </>
