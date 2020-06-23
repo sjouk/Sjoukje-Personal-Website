@@ -1,7 +1,7 @@
 ---
 title: 'Hello, world!'
 author: 'Sjoukje'
-date: '2020-04-27'
+date: '2020-06-23'
 hero_image: ../static/milkovi-seattle-unsplash.jpg
 ---
 
