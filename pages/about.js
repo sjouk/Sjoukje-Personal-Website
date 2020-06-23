@@ -14,17 +14,17 @@ const About = ({ title, description, ...props }) => {
       <Layout pageTitle={`${title} | About`} description={description}>
         <h1 className="title">About Sjoukje</h1>
 
-        <button onClick={toggle}>{toggleButtonText}</button>
+        <button onClick={toggle}><p>{toggleButtonText}</p></button>
         
         {toggleDescription && 
-          <div className="about about-short">
+          <div className="about">
             <p>Hey there! My name is Sjoukje (sound!) and I'm a software engineer at <a href="https://www.jpmorgan.com/" target="_blank">JP Morgan</a>. 
             I help women launch their tech careers, nerd out on tech Twitter and catch sea bass on Animal Crossing.</p>
           </div> 
         }
 
         {!toggleDescription && 
-          <div className="about about-long">
+          <div className="about">
               <p>
                   Hello there! My name is Sjoukje (sound!) and I'm a software engineer at <a href="https://www.jpmorgan.com/" target="_blank">JP Morgan</a>. 
                   Before now, I was a software engineer intern at <a href="https://www.floatapp.com" target="_blank">Float</a> in Edinburgh and got a maths degree at the University of St Andrews.
@@ -55,12 +55,20 @@ const About = ({ title, description, ...props }) => {
           align-items: center;
           justify-content: center;
           flex-wrap: wrap;
+          width: 50%;
         }
-        .about-short {
-            width: 40%;
+        button {
+          background: #FD2B3B;
+          width: 30%;
+          border: none;
+          border-radius: 4px;
         }
-        .about-long {
-            width: 40%;
+        button:hover {
+          background: #FF707C;
+        }
+        button p {
+          color: white;
+          margin: 10px;
         }
       `}</style>
     </>

@@ -31,7 +31,7 @@ export default function Layout({ children, pageTitle, description, ...props }) {
           font-weight: bold;
         }
         a {
-          color: #FFBE0B;
+          color: #02c39a;
           text-decoration: none;
         }
         .content {
@@ -44,13 +44,14 @@ export default function Layout({ children, pageTitle, description, ...props }) {
         }
         footer {
           width: 100%;
-          height: 100px;
+          height: 10%;
           border-top: 2px solid #FB5607;
           display: flex;
           justify-content: center;
           align-items: center;
           position: absolute;
           bottom: 0;
+          background: white;
         }
         footer img {
           padding: 0 5px;
