@@ -5,16 +5,17 @@ const getPosts = (context) => {
   const values = keys.map(context)
 
   const data = keys.map((key, index) => {
-    let slug = key.replace(/^.*[\\\/]/, '').slice(0, -3)
-    const value = values[index]
-    const document = matter(value.default)
+    let slug = key.replace(/^.*[\\\/]/, '').slice(0, -3);
+    const value = values[index];
+    const document = matter(value.default);
     return {
       frontmatter: document.data,
       markdownBody: document.content,
       slug,
     }
-  })
-  return data
+  });
+  
+  return data;
 }
 
-export default getPosts
+export default getPosts;

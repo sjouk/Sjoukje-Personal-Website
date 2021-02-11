@@ -2,7 +2,6 @@
 title: 'Hello, world!'
 author: 'Sjoukje'
 date: '2020-06-23'
-hero_image: ../static/milkovi-seattle-unsplash.jpg
 ---
 
 Hey everyone! My name is Sjoukje and I'm an engineer based (remotely!) in Amsterdam. Usually I'm living it up in Glasgow but COVID-19 had other plans this year. 2020 was racing along at a speed I could almost not keep up with (events! panels! public speaking!) and when lockdown started and my holiday plans were dashed in March, I had some proper burn out symptoms. So I took a break! I finished teaching the Code First: Girls course I was doing at Strathclyde, took a step back from event organising with BCSWomen, and tried to focus on myself and my family. 
