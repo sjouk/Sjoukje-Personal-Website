@@ -18,7 +18,7 @@ const About = ({ title, description, ...props }) => {
         
         {toggleDescription && 
           <div className="about">
-            <p>Hey there! My name is Sjoukje (sound!) and I'm a fullstack software engineer based in Amsterdam. 
+            <p>Hey there! My name is Sjoukje and I'm a fullstack software engineer based in Amsterdam. 
             I help women launch their tech careers, nerd out on tech Twitter and catch sea bass on Animal Crossing.</p>
           </div> 
         }
@@ -29,9 +29,7 @@ const About = ({ title, description, ...props }) => {
                   Hello there! My name is Sjoukje (sound!) and I'm a fullstack software engineer based in Amsterdam. I am also a freelance coding instructor at <a href="https://www.codefirstgirls.com/" target="_blank">Code First Girls</a>. 
                   Before now, I was a software engineer at <a href="https://www.jpmorgan.com" target="_blank">JP Morgan</a> in Glasgow, and an intern at <a href="https://www.floatapp.com" target="_blank">Float</a> in Edinburgh. 
                   In 2018 I received my maths degree from the University of St Andrews in Scotland.
-                  My summers working as a camp counsellor manager laid a foundation of leadership and taught me how to guide 50 teenagers through the streets of Oxford without major accidents.
               </p>
-
               <p>
                   I teach coding courses, mentor individuals at the start of their tech careers, and help people be their best selves in this industry. 
                   In my free time, I read big books, teach pals how to code and call my friends on Zoom.
