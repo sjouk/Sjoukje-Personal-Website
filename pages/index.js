@@ -15,7 +15,7 @@ const Index = ({ posts, title, description, ...props }) => {
               <h2 className="subtitle">Fullstack Software Engineer ✨ (remote in Amsterdam!)</h2>
             </div>
             <div className="img-frame">
-              <img src="/headshot.png" />
+              <img src="/headshot.jpg" />
             </div>
           </div> 
           <div className="links">

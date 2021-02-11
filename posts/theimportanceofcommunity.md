@@ -12,7 +12,7 @@ It goes without saying that you can’t be what you can’t see - it’s really 
 
 The benefits of joining a network early in my career seemed straightforward - accelerate my growth as a young professional, build a network and learn from lots of interesting people. What I hadn’t expected was to be embraced by my new communities on a more human level, that they would reassure and encourage me when I struggled and cheer me on when I took exciting chances in my life and career.
 
-With most working or studying remotely, there has never been a better time to join your local diversity in tech or technical networks. Joining and contributing to a network allows you to grow your career and expand your horizons to new opportunities, skills and opinions. 
+With most working or studying remotely, there has never been a better time to join your local diversity in tech or technical networks. Joining and contributing to a network allows you to grow your career and expand your horizons to new opportunities, skills and opinions.
 
 Men should also consider attending diversity in tech events to help push the gender equity in tech agenda forward. At BCSWomen we believe that diversity of thought is only possible when everyone’s voices are allowed to be heard, and we encourage men to join our conversations so that we can improve how we discuss and achieve diversity and inclusion in the workplace. In turn, male attendees could find it rewarding to be able to learn about and champion this movement when they return to their workplaces.
 
