@@ -54,7 +54,6 @@ const About = ({ title, description, ...props }) => {
           align-items: center;
           justify-content: center;
           flex-wrap: wrap;
-          width: 50%;
         }
         button {
           background: #FD2B3B;
