@@ -32,7 +32,7 @@ const About = ({ title, description, ...props }) => {
               </p>
               <p>
                   I teach coding courses, mentor individuals at the start of their tech careers, and help people be their best selves in this industry. 
-                  In my free time, I read big books, teach pals how to code and call my friends on Zoom.
+                  In my free time, I read <a href="/post/readinglist">lots of books</a>, teach pals how to code and call my friends on Zoom.
               </p>
               <p>
                   I've been a women in tech ambassador since 2014, when I first learned what code was.
