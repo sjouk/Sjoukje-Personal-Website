@@ -1,7 +1,7 @@
 ---
 title: 'How to get into tech: the big guide'
 author: 'Sjoukje'
-date: '2020-06-23'
+date: '2020-06-24'
 hero_image: ../static/milkovi-seattle-unsplash.jpg
 ---
 
