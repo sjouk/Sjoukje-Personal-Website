@@ -10,6 +10,7 @@ export default function Layout({ children, pageTitle, description, ...props }) {
         <meta charSet="utf-8" />
         <meta name="Description" content={description}></meta>
         <title>{pageTitle}</title>
+        <link rel="icon" href="/favicon.ico" />
         <link rel="shortcut icon" href="/headshot.png" />
         <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet' />
         <script data-name="BMC-Widget" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="sjoukje" data-description="Help me support more women in tech ✨" data-message="Hey you! Over here!" data-color="#79D6B5" data-position="right" data-x_margin="18" data-y_margin="18"></script>

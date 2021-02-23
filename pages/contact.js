@@ -8,9 +8,7 @@ const Contact = ({ title, description, ...props }) => {
     <>
       <Layout pageTitle={`${title} | Let's Talk`}>
         <h1 className="title">Let's Talk!</h1>
-
         <InlineWidget className="calendly" color="#00a2ff" text="Request a Demo" textColor="#ffffff" url="https://calendly.com/sjoukje" />
-        
       </Layout>
       <style jsx>{`
         .calendly {
@@ -23,7 +21,7 @@ const Contact = ({ title, description, ...props }) => {
   )
 }
 
-export default Contact
+export default Contact;
 
 export async function getStaticProps() {
   const configData = await import(`../siteconfig.json`)

@@ -12,9 +12,10 @@ const About = ({ title, description, ...props }) => {
   return (
     <>
       <Layout pageTitle={`${title} | About`} description={description}>
-        <h1 className="title">About Sjoukje</h1>
-
-        <button onClick={toggle}><p>{toggleButtonText}</p></button>
+        <div>
+          <h1 className="title">About Sjoukje</h1>
+          <button onClick={toggle}>{toggleButtonText}</button>
+        </div>
         
         {toggleDescription && 
           <div className="about">
@@ -26,7 +27,7 @@ const About = ({ title, description, ...props }) => {
         {!toggleDescription && 
           <div className="about">
               <p>
-                  Hello there! My name is Sjoukje (sound!) and I'm a fullstack software engineer based in Amsterdam. I am also a freelance coding instructor at <a href="https://www.codefirstgirls.com/" target="_blank">Code First Girls</a>. 
+                  Hello there! My name is Sjoukje and I'm a fullstack software engineer based in Amsterdam. I am also a freelance coding instructor at <a href="https://www.codefirstgirls.com/" target="_blank">Code First Girls</a>. 
                   Before now, I was a software engineer at <a href="https://www.jpmorgan.com" target="_blank">JP Morgan</a> in Glasgow, and an intern at <a href="https://www.floatapp.com" target="_blank">Float</a> in Edinburgh. 
                   In 2018 I received my maths degree from the University of St Andrews in Scotland.
               </p>
@@ -49,6 +50,9 @@ const About = ({ title, description, ...props }) => {
         </p>
       </Layout>
       <style jsx>{`
+        .title {
+          float: left;
+        }
         .about {
           display: flex;
           align-items: center;
@@ -57,16 +61,15 @@ const About = ({ title, description, ...props }) => {
         }
         button {
           background: #FD2B3B;
-          width: 30%;
-          border: none;
-          border-radius: 4px;
+          width: 200px;
+          height: 100%;
+          border: none 4px;
+          color: white;
+          margin-left: 10px;
+          float: right;
         }
         button:hover {
           background: #FF707C;
-        }
-        button p {
-          color: white;
-          margin: 10px;
         }
       `}</style>
     </>

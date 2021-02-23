@@ -69,25 +69,17 @@ const Index = ({ posts, title, description, ...props }) => {
           transform: translate(-50%, -50%);
           height: 100%;
         }
-        #backgroundimage {
-          height: 40%;
-          left: 0;
-          margin: 0;
-          min-height: 100px;
-          min-width: 100px;
-          padding: 0;
-          position: fixed;
-          top: 10%;
-          width: 1;
-          z-index: -1;
-          border-radius: 30% 60% 50% 40%;
-        }
         .links {
           margin: 25px 0;
-          display: block;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
         }
         .links a:not(:last-child) {
           padding: 0 16px 0 0;
+        }
+        .links a {
+          display: block;
         }
       `}</style>
     </>

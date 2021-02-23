@@ -12,7 +12,7 @@ In progress! I picked this one up because I enjoyed his more recent novel 'Cloud
 
 ## Normal People - Sally Rooney
 
-I was interested in reading this book initially because it's received a ton of acclaim, but ultimately I was disappointed in how superficially the two main character's personas were developed. For some background, this book is about two people who fall in love and are implied to be soulmates, yet continuously break up due to meaningless arguments and get together again out of habit. I enjoyed Rooney's concise writing style and undoubtedly consider her a great writer, but felt that some depth of character could have supported the plot and her characters' relationship.
+I was interested in reading this book initially because it's received a ton of acclaim, but ultimately I was disappointed in how superficially the two main character's personas were developed. For some background, this book is about two people who fall in love and are implied to be soulmates, yet continuously break up due to meaningless arguments and get together again out of habit. I enjoyed Rooney's concise writing style and undoubtedly consider her a great writer, but felt that some depth of character could have supported the plot and her characters' relationship. Banging Spotify playlist, I must add.
 
 ## On Chesil Beach - Ian McEwan
 
@@ -24,11 +24,11 @@ I received 'A Promised Land' for my 25th birthday in December, it was the only i
 
 ## The Crucible - Arthur Miller
 
-To be reviewed.
+This is a play about the Salem witch trials and, wow, what a thriller. I really liked the story, depth of characters.
 
 ## The Triffids - John Wyndham
 
-To be reviewed.
+I'll never look at a large plant the same way again. I read this in the middle of the first 2020 lockdown because it had a slightly apocolyptic blurb on the back which was definitely relevant the way the streets of my city were empty. Basically, aggressive, blinding and mysterious plants called Triffids take over central London, then the world, and we're taken on a wild ride as the protagonist navigates his battle against them. It's an instant classic and I really recommend it.
 
 ## Shoe Dog - Phil Knight
 
@@ -43,5 +43,9 @@ To be reviewed.
 To be reviewed.
 
 ## Under the Banner of Heaven - John Krakauer
+
+To be reviewed.
+
+## Unsheltered - Barbara Kingsolver
 
 To be reviewed.
