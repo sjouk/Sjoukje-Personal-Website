@@ -43,11 +43,6 @@ const About = ({ title, description, ...props }) => {
               </p>
           </div>
         }
-
-        <p className="description">
-          I built this with Next.js and deployed it on{' '}
-          <a href="https://url.netlify.com/r1j6ybSYU">Netlify</a>.
-        </p>
       </Layout>
       <style jsx>{`
         .title {

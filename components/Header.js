@@ -11,6 +11,9 @@ export default function Header() {
           <Link href="/about">
             <a>About</a>
           </Link>
+          <Link href="/content">
+            <a>Content</a>
+          </Link>
           <Link href="/contact">
             <a>Let's Talk</a>
           </Link>

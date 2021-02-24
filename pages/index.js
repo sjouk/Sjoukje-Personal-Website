@@ -7,7 +7,6 @@ const Index = ({ posts, title, description, ...props }) => {
   return (
     <>
       <Layout pageTitle={title} description={description}>
-        {/* <img id="backgroundimage" src="/circle-hero.png" border="0" alt="" /> */}
         <div className="container">
           <div className="header-section">
             <div className="header-frame">
