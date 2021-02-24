@@ -30,9 +30,10 @@ const Content = ({title, description, ...props}) => {
                 .container {
                     display: flex;
                     align-items: center;
-                    justify-content: center;
+                    justify-content: flex-start;
                     flex-wrap: wrap;
                     margin-top: 2rem;
+                    align-items: flex-start;
                 }
                 .card {
                     margin: 1rem;
@@ -49,9 +50,6 @@ const Content = ({title, description, ...props}) => {
                     margin: 0 0 1rem 0;
                     font-size: 1.25rem;
                     line-height: 1.5;
-                }
-                .card m-story {
-                    max-width: 60%;
                 }
                 .card:hover,
                 .card:focus,
