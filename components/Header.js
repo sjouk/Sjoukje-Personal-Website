@@ -6,7 +6,7 @@ export default function Header() {
       <header className="header">
         <nav className="nav" role="navigation" aria-label="main navigation">
           <Link href="/">
-            <a>Sjoukje's Blog</a>
+            <a>Sjoukje IJlstra</a>
           </Link>
           <Link href="/about">
             <a>About</a>
@@ -23,9 +23,9 @@ export default function Header() {
         header {
           width: 100%;
           height: 100px;
-          border-bottom: 2px solid #FB5607;;
+          border-bottom: 2px solid #FB5607;
           display: flex;
-          justify-content: center;
+          justify-content: flex-start;
           align-items: center;
         }
         nav {
@@ -33,9 +33,24 @@ export default function Header() {
           max-width: 1200px;
           font-weight: bold;
           font-size: 1.3rem;
+          margin-left: 20px;
+
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: flex-start;
         }
         nav a {
           margin-right: 20px;
+        }
+        nav a:first-child {
+          color: #e991ff;
+        }
+        @media (min-width: 329px) {
+          nav a:first-child {
+            padding-right: 2rem;
+            border-height: 100px;
+            border-right: 2px solid #FB5607;
+          }
         }
       `}</style>
     </>
