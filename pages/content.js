@@ -10,6 +10,11 @@ const Content = ({title, description, ...props}) => {
                     <p className="description">A selection of my past projects, content and features.</p>
                     <div className="container">
                         <div className="card">
+                            <h3><strong>Code First Girls</strong> Feature</h3>
+                            <p>March 2021</p>
+                            <a href="https://codefirstgirls.org.uk/celebrating-cfg-members/" target="_blank">Celebrating CFG Members</a>
+                        </div>
+                        <div className="card">
                             <h3><strong>Acing the Tech Interview</strong> Talk</h3>
                             <p>February 2021</p>
                             <iframe src="https://www.icloud.com/keynote/0mxMvPd5YtMkSxRGR7INLNMpg?embed=true" frameBorder="0" allowFullScreen="1" referrer="no-referrer"></iframe>
