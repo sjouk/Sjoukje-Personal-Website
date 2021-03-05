@@ -56,11 +56,11 @@ One of the first things I was taught was “don’t learn everything at once”.
 * Webflow University (university.webflow.com)
 * Fun resource guide! Choose your own adventure! (<https://designresourc.es/>)
 
-### Web development (frontend)
+### Web development (frontend) & Python (backend)
 
-* Code First: Girls (free course for female/non-binary students aged 18-25. Paid for female/non-binary identifying outside of that range)
+* [Code First: Girls](https://www.codefirstgirls.org.uk) (free course for female/non-binary students aged 18-25. Paid for female/non-binary identifying outside of that range)
 * CodePen
-* FreeCodeCamp
+* [FreeCodeCamp](https://www.freecodecamp.com)
 * Udemy
 
 ## **Beginners ‘Learn to Code’ Resources**
@@ -69,10 +69,10 @@ One of the first things I was taught was “don’t learn everything at once”.
 
 ### Free
 
-* Code First: Girls student courses
+* [Code First: Girls](https://www.codefirstgirls.org.uk) student courses
 * How to automate the boring stuff Python (Python only)
 * Codecademy (free courses cover the start but paid will teach you way more)
-* FreeCodeCamp (<freecodecamp.io>)
+* [FreeCodeCamp](https://www.freecodecamp.com)
 * Quick questions on HackerRank and LeetCode
 
 ### Paid
@@ -96,21 +96,21 @@ Having a community you feel at home in is the absolute key to success in the tec
 
 ### Online
 
-* Code First: Girls (lunchtime talks + free/paid coding courses for women)
-* Codebar (online ‘learn to code’ meetups) <https://codebar.io/>
+* [Code First: Girls](https://www.codefirstgirls.org.uk) (lunchtime talks + free/paid coding courses for women)
+* [Codebar](https://www.codebar.io/) (online ‘learn to code’ meetups)
 
 ### London
 
-* Rails Girls London (@twitter)
+* Rails Girls London
 
 ### Scotland
 
 * Women in Technology Scotland (women in tech events)
 * BCSWomen (monthly women in tech events)
 * Data Science Scotland (Meetups)
-* Ladies Of Code (monthly meetup - Glasgow) (@twitter)
+* Ladies Of Code (monthly meetup - Glasgow)
 * Codebar (various locations, regular ‘learn to code’ sessions)
-* Code Craft UK (@twitter)
+* Code Craft UK
 
 ### Nottingham
 
@@ -120,9 +120,9 @@ Having a community you feel at home in is the absolute key to success in the tec
 
 Job boards are a great way to quickly find relevant jobs for your area of interest or find vetted options from your community.
 
-* She Can Code <SheCanCode.io>
-* Code First: Girls
-* GirlCode (<girlcode.io>)
+* [She Can Code](https://www.SheCanCode.io)
+* [Code First: Girls](https://www.codefirstgirls.org.uk)
+* [GirlCode](https://www.girl-code.co.uk)
 
 ## **Hackathons + Conferences + Tech Events**
 

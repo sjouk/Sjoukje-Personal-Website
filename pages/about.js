@@ -19,28 +19,31 @@ const About = ({ title, description, ...props }) => {
         
         {toggleDescription && 
           <div className="about">
-            <p>Hey there! My name is Sjoukje and I'm a fullstack software engineer based in Amsterdam. 
+            <p>Hey there! My name is Sjoukje and I'm a fullstack software engineer and lead coding instructor based in Amsterdam. 
             I help women launch their tech careers, nerd out on tech Twitter and catch sea bass on Animal Crossing.</p>
           </div> 
         }
 
         {!toggleDescription && 
           <div className="about">
-              <p>
-                  Hello there! My name is Sjoukje and I'm a fullstack software engineer based in Amsterdam. I am also a freelance coding instructor at <a href="https://www.codefirstgirls.com/" target="_blank">Code First Girls</a>. 
-                  Before now, I was a software engineer at <a href="https://www.jpmorgan.com" target="_blank">JP Morgan</a> in Glasgow, and an intern at <a href="https://www.floatapp.com" target="_blank">Float</a> in Edinburgh. 
-                  In 2018 I received my maths degree from the University of St Andrews in Scotland.
-              </p>
-              <p>
-                  I teach coding courses, mentor individuals at the start of their tech careers, and help people be their best selves in this industry. 
-                  In my free time, I read <a href="/post/readinglist">lots of books</a>, teach pals how to code and call my friends on Zoom.
-              </p>
-              <p>
-                  I've been a women in tech ambassador since 2014, when I first learned what code was.
-                  Since then, you might know me from teaching <a href="https://www.codefirstgirls.org.uk/" target="_blank">Code First: Girls</a> courses, the tech events I organise for <a href="https://bcswomen.bcs.org/" target="_blank">BCSWomen</a>, or my ambassador work for <a href="http://www.sheplusplus.com/" target="_blank">SHE++</a>.
-                  If you need a speaker, a panellist, a mentor or influencer work for your org, I'll probably do it! 
-                  Feel free to <a href="mailto:sjoukjeijlstra@gmail.com">email me</a> so we can chat!
-              </p>
+            <p>
+              Hello there! My name is Sjoukje and I'm a fullstack software engineer based in Amsterdam. I am also a freelance coding instructor at <a href="https://www.codefirstgirls.com/" target="_blank">Code First Girls</a>. 
+              Before now, I was a software engineer at <a href="https://www.jpmorgan.com" target="_blank">JP Morgan</a> in Glasgow, and an intern at <a href="https://www.floatapp.com" target="_blank">Float</a> in Edinburgh. 
+              In 2018 I received my mathematics degree from the University of St Andrews in Scotland.
+            </p>
+            <p>
+              I teach coding courses, mentor individuals at the start of their tech careers, and help people be their best selves in this industry. 
+              In my free time, I read <a href="/post/readinglist">lots of books</a>, teach pals how to code and call my friends on Zoom.
+            </p>
+            <p>
+              I am currently teaching the Python Career Switcher course for Code First Girls, and will be the lead instructor for these courses for the rest of 2021.
+            </p>
+            <p>
+              I've been a women in tech ambassador since 2014, when I first learned what code was.
+              Since then, you might know me from teaching <a href="https://www.codefirstgirls.org.uk/" target="_blank">Code First Girls</a> courses, the tech events I organise for <a href="https://bcswomen.bcs.org/" target="_blank">BCSWomen</a>, or my ambassador work for <a href="http://www.sheplusplus.com/" target="_blank">SHE++</a>.
+              If you need a speaker, a panellist, a mentor or influencer work for your org, I'll probably do it! 
+              Feel free to <a href="mailto:sjoukjeijlstra@gmail.com">email me</a> so we can chat!
+            </p>
           </div>
         }
       </Layout>
@@ -71,15 +74,15 @@ const About = ({ title, description, ...props }) => {
   )
 }
 
-export default About
+export default About;
 
 export async function getStaticProps() {
-  const configData = await import(`../siteconfig.json`)
+  const configData = await import(`../siteconfig.json`);
 
   return {
     props: {
       title: configData.default.title,
-      description: configData.default.description,
-    },
+      description: configData.default.description
+    }
   }
 }

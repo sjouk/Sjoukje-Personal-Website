@@ -22,12 +22,13 @@ const Index = ({ posts, title, description, ...props }) => {
             <a href="https://www.linkedin.com/in/sjoukje-ijlstra-27607379" target="_blank">linkedin</a>
             <a href="http://codepen.io/sjoukjeijlstra" target="_blank">codepen</a>
             <a href="http://github.com/sjouk" target="_blank">github</a>
+            <a href="http://dev.to/sjouk" target="_blank">dev.to</a>
             <a href="mailto:sjoukjeijlstra@gmail.com" target="_blank">email</a>
           </div>
           <main>
             <h3>Blog Posts</h3>
             <PostList posts={posts} />
-        </main>
+          </main>
         </div>
       </Layout>
       <style jsx>{`

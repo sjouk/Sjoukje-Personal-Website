@@ -8,7 +8,6 @@ const Content = ({title, description, ...props}) => {
                 <div>
                     <h1 className="title">Projects & Content</h1>
                     <p className="description">A selection of my past projects, content and features.</p>
-
                     <div className="container">
                         <div className="card">
                             <h3><strong>Acing the Tech Interview</strong> Talk</h3>
