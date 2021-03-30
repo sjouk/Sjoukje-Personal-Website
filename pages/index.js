@@ -11,7 +11,7 @@ const Index = ({ posts, title, description, ...props }) => {
           <div className="header-section">
             <div className="header-frame">
               <h1 className="title">Sjoukje Ijlstra</h1>
-              <h2 className="subtitle">Fullstack Software Engineer ✨ (remote in Amsterdam!)</h2>
+              <h2 className="subtitle">Harvard Tech Education Grad Student & Fullstack Software Engineer ✨</h2>
             </div>
             <div className="img-frame">
               <img src="/headshot.jpg" />
@@ -23,7 +23,7 @@ const Index = ({ posts, title, description, ...props }) => {
             <a href="http://codepen.io/sjoukjeijlstra" target="_blank">codepen</a>
             <a href="http://github.com/sjouk" target="_blank">github</a>
             <a href="http://dev.to/sjouk" target="_blank">dev.to</a>
-            <a href="mailto:sjoukjeijlstra@gmail.com" target="_blank">email</a>
+            <a href="mailto:sijlstra@gse.harvard.edu" target="_blank">email</a>
           </div>
           <main>
             <h3>Blog Posts</h3>
@@ -43,6 +43,7 @@ const Index = ({ posts, title, description, ...props }) => {
         }
         .subtitle {
           color: #FF006E;
+          margin-right: 5px;
         }
         .header-section {
           display: flex;

@@ -20,7 +20,7 @@ const About = ({ title, description, ...props }) => {
         {toggleDescription && 
           <div className="about">
             <p>Hey there! My name is Sjoukje and I'm a fullstack software engineer and lead coding instructor based in Amsterdam. 
-            I help women launch their tech careers, nerd out on tech Twitter and catch sea bass on Animal Crossing.</p>
+            I'm an incoming Harvard University grad student focussing on developing next-gen tech education that serves everyone.</p>
           </div> 
         }
 
@@ -28,6 +28,7 @@ const About = ({ title, description, ...props }) => {
           <div className="about">
             <p>
               Hello there! My name is Sjoukje and I'm a fullstack software engineer based in Amsterdam. I am also a freelance coding instructor at <a href="https://www.codefirstgirls.com/" target="_blank">Code First Girls</a>. 
+              I am an incoming Harvard University grad student and will be working towards my Master's degree in <a href="https://www.gse.harvard.edu/masters/programs/LDIT" target="_blank">Learning Design, Innovation and Technology</a> in Cambridge, MA until 2022.
               Before now, I was a software engineer at <a href="https://www.jpmorgan.com" target="_blank">JP Morgan</a> in Glasgow, and an intern at <a href="https://www.floatapp.com" target="_blank">Float</a> in Edinburgh. 
               In 2018 I received my mathematics degree from the University of St Andrews in Scotland.
             </p>
@@ -42,7 +43,7 @@ const About = ({ title, description, ...props }) => {
               I've been a women in tech ambassador since 2014, when I first learned what code was.
               Since then, you might know me from teaching <a href="https://www.codefirstgirls.org.uk/" target="_blank">Code First Girls</a> courses, the tech events I organise for <a href="https://bcswomen.bcs.org/" target="_blank">BCSWomen</a>, or my ambassador work for <a href="http://www.sheplusplus.com/" target="_blank">SHE++</a>.
               If you need a speaker, a panellist, a mentor or influencer work for your org, I'll probably do it! 
-              Feel free to <a href="mailto:sjoukjeijlstra@gmail.com">email me</a> so we can chat!
+              Feel free to <a href="mailto:sijlstra@gse.harvard.edu">email me</a> so we can chat!
             </p>
           </div>
         }
