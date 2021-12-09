@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "gray-matter": "^4.0.2",
-    "next": "^10.1.2",
+    "next": "^11.1.3",
     "raw-loader": "^4.0.1",
     "react": "^17.0.2",
     "react-calendly": "^1.3.1",
