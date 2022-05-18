@@ -5,10 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
+    "encoding": "^0.1.13",
     "gray-matter": "^4.0.3",
     "next": "^12.1.6",
     "npm": "^8.10.0",
@@ -20,6 +20,7 @@
     "react-markdown": "^8.0.3"
   },
   "engines": {
-    "node": "14.19.3"
+    "node": "16.15.0",
+    "npm": "8.5.5"
   }
 }
