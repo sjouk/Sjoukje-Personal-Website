@@ -20,6 +20,6 @@
     "react-markdown": "^8.0.3"
   },
   "engines": {
-    "node": ">10.24.1 <15"
+    "node": "14.19.3"
   }
 }
