@@ -1,10 +1,10 @@
 # Sjoukje's Personal Website
 
-Hey reader, welcome to my website! You can find out more about me, get in touch via Calendly or browse my blogs. I usually write advice blogs for new developers, talk about various communities or share reviews I've written about books.
+Hey reader, welcome to my website! You can find out more about me or get in touch via Calendly. I am not a writer so don't expect many long musings, but can talk endlessly about developer education, my path into web3 so far, and my favourite museums and films. 
 
 ## Live
 
-Check out my live site [here](http://www.sjoukje.netlify.com)!
+Check out my live site [here](http://www.sjoukje.netlify.app)!
 
 ## The Stack
 

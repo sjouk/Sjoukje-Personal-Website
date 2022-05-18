@@ -6,13 +6,24 @@ const Content = ({title, description, ...props}) => {
         <>
             <Layout pageTitle={`${title} | About`} description={description}>
                 <div>
-                    <h1 className="title">Projects & Content</h1>
+                    <h1 className="title">Past Work</h1>
                     <p className="description">A selection of my past projects, content and features.</p>
                     <div className="container">
                         <div className="card">
+                            <h3><strong>Fulbright Scholarship</strong> Feature</h3>
+                            <p>June 2021</p>
+                            <img src="/1Z2A8385.jpg" style={{maxWidth: '80%'}} />
+                            <a href="https://fulbright.nl/en/news/" target="_blank">Fulbright Award Ceremony at US Embassy, The Hague</a>
+                        </div>
+                        <div className="card">
+                            <h3><strong>Fulbright Scholarship</strong> Feature</h3>
+                            <p>June 2021</p>
+                            <a href="https://fulbright.nl/en/news/" target="_blank">Fulbright Award Ceremony at US Embassy, The Hague</a>
+                        </div>
+                        <div className="card">
                             <h3><strong>Code First Girls</strong> Feature</h3>
                             <p>March 2021</p>
-                            <a href="https://codefirstgirls.org.uk/celebrating-cfg-members/" target="_blank">Celebrating CFG Members</a>
+                            <a href="https://codefirstgirls.org.uk/cfg-member-sjoukje/" target="_blank">CFG Instructor Bio</a>
                         </div>
                         <div className="card">
                             <h3><strong>Acing the Tech Interview</strong> Talk</h3>

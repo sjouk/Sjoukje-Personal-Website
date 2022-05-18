@@ -19,31 +19,29 @@ const About = ({ title, description, ...props }) => {
         
         {toggleDescription && 
           <div className="about">
-            <p>Hey there! My name is Sjoukje and I'm a fullstack software engineer and lead coding instructor based in Amsterdam. 
-            I'm an incoming Harvard University grad student focussing on developing next-gen tech education that serves everyone.</p>
+            <p>Hey there! My name is Sjoukje (shh-ow-kia) and I'm a fullstack software engineer, Master's student and lead coding instructor currently based in Cambridge, MA (usually Amsterdam). 
+            I'm studying tech education at Harvard University as a Fulbright and Netherland-America Foundation scholar. I will be graduating
+            with my Master's in May 2022. My big interests are currently tech communities, web3 education, and health tech.</p>
           </div> 
         }
 
         {!toggleDescription && 
           <div className="about">
             <p>
-              Hello there! My name is Sjoukje and I'm a fullstack software engineer based in Amsterdam. I am also a freelance coding instructor at <a href="https://www.codefirstgirls.com/" target="_blank">Code First Girls</a>. 
-              I am an incoming Harvard University grad student and will be working towards my Master's degree in <a href="https://www.gse.harvard.edu/masters/programs/LDIT" target="_blank">Learning Design, Innovation and Technology</a> in Cambridge, MA until 2022.
-              Before now, I was a software engineer at <a href="https://www.jpmorgan.com" target="_blank">JP Morgan</a> in Glasgow, and an intern at <a href="https://www.floatapp.com" target="_blank">Float</a> in Edinburgh. 
-              In 2018 I received my mathematics degree from the University of St Andrews in Scotland.
+              Hello there! My name is Sjoukje and I'm a Master's student and fullstack software engineer based in Cambridge, MA.  
+              I'm studying tech education at Harvard University as a Fulbright and Netherland-America Foundation scholar and will be graduating
+            with my Ed.M. in <a href="https://www.gse.harvard.edu/masters/programs/LDIT" target="_blank">Learning Design, Innovation and Technology</a> in May 2022.
             </p>
             <p>
-              I teach coding courses, mentor individuals at the start of their tech careers, and help people be their best selves in this industry. 
-              In my free time, I read <a href="/post/readinglist">lots of books</a>, teach pals how to code and call my friends on Zoom.
+              I teach coding courses, mentor individuals at the start of their tech careers, and help people be their best and true selves in this industry. 
             </p>
             <p>
-              I am currently teaching the Python Career Switcher course for Code First Girls, and will be the lead instructor for these courses for the rest of 2021.
-            </p>
-            <p>
-              I've been a women in tech ambassador since 2014, when I first learned what code was.
-              Since then, you might know me from teaching <a href="https://www.codefirstgirls.org.uk/" target="_blank">Code First Girls</a> courses, the tech events I organise for <a href="https://bcswomen.bcs.org/" target="_blank">BCSWomen</a>, or my ambassador work for <a href="http://www.sheplusplus.com/" target="_blank">SHE++</a>.
-              If you need a speaker, a panellist, a mentor or influencer work for your org, I'll probably do it! 
-              Feel free to <a href="mailto:sijlstra@gse.harvard.edu">email me</a> so we can chat!
+              I've been an OG women in tech ambassador since 2014, when I first learned what code was and that the gender gap was real.
+              Since then, you might know me as a lead coding instructor teaching <a href="https://www.codefirstgirls.org.uk/" target="_blank">Code First Girls</a> 
+               courses, the tech community events I organised for <a href="https://bcswomen.bcs.org/" target="_blank">BCSWomen</a>, or my ambassador work 
+              for Stanford's <a href="http://www.sheplusplus.com/" target="_blank">SHE++</a>.
+              If you need a speaker or a panellist for your org I'll probably do it if I have time! Feel free to 
+              <a href="mailto:sjoukjeijlstra@gmail.com">email me</a> so we can discuss it.
             </p>
           </div>
         }
