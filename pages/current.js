@@ -13,7 +13,7 @@ const Current = ({title, description, ...props}) => {
                         <ul>👩🏻‍⚕️ Developing a digital marketplace that matches nurses to pediatric Medicaid careseekers</ul>
                         <ul>📚 Advising a big American bank on improving their data science and AI summer camps for underrepresented groups in tech</ul>
                     </div>
-                    <p className="description">My current interests</p>
+                    <p className="description">My current interests </p>
                     <div className="container">
                         <ul>🌀 Upgrading my development skills from web2 to web3 with buildspace + other crypto communities</ul>
                         <ul>👩‍💻 Developing technical education courses that motivate, inspire and deeply engage the learner</ul>
