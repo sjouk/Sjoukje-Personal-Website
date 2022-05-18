@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 import Header from './Header'
 
-export default function Layout({ children, pageTitle, description, ...props }) {
+export default function Layout({ source, pageTitle, description, ...props }) {
   return (
     <>
       <Head>
@@ -50,7 +50,7 @@ export default function Layout({ children, pageTitle, description, ...props }) {
       `}</style>
       <section className="layout">
         <Header />
-        <div className="content">{children}</div>
+        <div className="content">{source}</div>
       </section>
     </>
   )
